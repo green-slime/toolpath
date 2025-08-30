@@ -1,0 +1,229 @@
+[2025-08-12 17:10:42] 3000渲染点训一次，观察此时500渲染点和501渲染点的渲染效果。
+[2025-08-13 07:18:34] 训练完成。相关输出文件夹为：
+large train: output/large_600_2999_0.01_large_13/
+small size render train (整除): output/large_600_499_0.01_small_13/
+small size render train2 (非整除): output/large_600_500_0.01_small_14/
+
+[2025-08-14 00:49:33] einstein:
+
+[2025-08-14 00:58:50] [cuda: CUDA_3] gray circle:
+
+[2025-08-14 01:05:13] [cuda: CUDA_3] gray circle:
+
+[2025-08-14 01:10:23] [cuda: CUDA_2] einstein_400:
+
+[2025-08-14 01:16:09] [cuda: CUDA_2] einstein_400:
+
+[2025-08-14 01:24:54] [cuda: CUDA_3] gray_circle:
+
+[2025-08-14 01:38:14] [cuda: CUDA_0] 6:
+
+[2025-08-14 01:39:32] [cuda: CUDA_0] 6:
+
+[2025-08-14 01:40:35] [cuda: CUDA_0] 6:
+
+[2025-08-14 01:47:20] [cuda: CUDA_3] 6:
+
+[2025-08-14 01:48:47] [cuda: CUDA_0] 6:
+
+[2025-08-14 02:31:35] [cuda: CUDA_0] 训练完成。相关输出文件夹为：
+output/large_300_1000_0.01_large_16/
+
+[2025-08-14 03:27:06] [cuda: CUDA_2] 训练完成。相关输出文件夹为：
+output/large_300_1000_0.01_large_14/
+
+[2025-08-14 04:19:02] [cuda: CUDA_3] 训练完成。相关输出文件夹为：
+output/large_300_1000_0.01_large_15/
+
+[2025-08-14 14:04:28] [cuda: CUDA_2] lena:
+
+[2025-08-14 14:09:45] [cuda: CUDA_3] ustc:
+
+[2025-08-14 14:16:55] [cuda: CUDA_2] lena_400:
+
+[2025-08-14 14:29:46] [cuda: CUDA_2] lena_400:
+
+[2025-08-14 14:40:22] [cuda: CUDA_0] ustc_400:
+
+[2025-08-14 15:35:57] [cuda: CUDA_0] 训练完成。相关输出文件夹为：
+output/large_300_1000_0.01_large_20/
+
+[2025-08-14 16:41:21] [cuda: CUDA_3] 训练完成。相关输出文件夹为：
+output/large_300_1000_0.01_large_18/
+
+[2025-08-14 16:56:57] [cuda: CUDA_2] 训练完成。相关输出文件夹为：
+output/large_300_1000_0.01_large_19/
+
+[2025-08-15 01:45:02] [cuda: CUDA_2] gray_circle:
+
+[2025-08-15 12:51:28] [cuda: CUDA_2] 训练完成。相关输出文件夹为：
+output/large_600_2000_0.01_large_21/
+
+[2025-08-16 00:28:15] [cuda: CUDA_2] gray_circle:
+
+[2025-08-16 00:37:48] [cuda: CUDA_0] gray_circle:
+
+[2025-08-16 01:04:40] [cuda: CUDA_0] gray_circle:
+
+[2025-08-16 01:06:30] [cuda: CUDA_0] gray_circle:
+
+[2025-08-16 01:07:32] [cuda: CUDA_0] gray_circle:
+
+[2025-08-16 01:11:18] [cuda: CUDA_0] gray_circle:
+
+[2025-08-16 01:17:37] [cuda: CUDA_2] gray_circle:
+
+[2025-08-16 01:19:13] [cuda: CUDA_2] gray_circle:
+
+[2025-08-16 01:39:23] [cuda: CUDA_2] gray_circle:
+
+[2025-08-16 01:45:06] [cuda: CUDA_2] gray_circle:
+
+[2025-08-16 13:41:34] [cuda: CUDA_2] gray_circle:
+
+[2025-08-16 13:47:55] [cuda: CUDA_2] gray_circle:
+
+[2025-08-16 14:31:24] [cuda: CUDA_2] gray_circle:
+
+[2025-08-16 14:57:11] [cuda: CUDA_2] gray_circle:
+
+[2025-08-16 15:42:52] [cuda: CUDA_2] gray_circle:
+
+[2025-08-16 23:53:39] [cuda: CUDA_2] gray_circle:
+
+[2025-08-16 23:56:17] [cuda: CUDA_0] gray_circle:
+
+[2025-08-17 00:05:35] [cuda: CUDA_0] gray_circle:
+
+[2025-08-17 17:35:55] [cuda: CUDA_2] gray_circle:
+
+[2025-08-17 17:36:39] [cuda: CUDA_0] gray_circle:
+
+[2025-08-17 17:55:08] [cuda: CUDA_0] 训练完成。相关输出文件夹为：
+output/large_600_2000_0.01_large_23/
+
+[2025-08-17 18:00:16] [cuda: CUDA_2] 训练完成。相关输出文件夹为：
+output/large_600_2000_0.01_large_23/
+
+[2025-08-17 19:04:31] [cuda: CUDA_2] gray_circle:
+
+[2025-08-17 19:11:18] [cuda: CUDA_2] 训练完成。相关输出文件夹为：
+output/large_600_2000_0.01_large_23/
+
+[2025-08-17 22:07:51] [cuda: CUDA_2] gray_circle:
+
+[2025-08-17 22:54:31] [cuda: CUDA_2] gray_circle:
+
+[2025-08-18 01:45:18] [cuda: CUDA_3] gray_circle:
+
+[2025-08-18 09:48:57] [cuda: CUDA_2] 训练完成。相关输出文件夹为：
+output/large_600_2000_0.01_large_24/
+
+[2025-08-19 01:00:28] [cuda: CUDA_2] ustc_400:
+
+[2025-08-19 03:55:15] [cuda: CUDA_3] 训练完成。相关输出文件夹为：
+output/large_1200_4000_0.01_large_25/
+
+[2025-08-19 08:54:25] [cuda: CUDA_2] 训练完成。相关输出文件夹为：
+output/large_600_2000_0.01_large_26/
+
+[2025-08-19 23:35:39] [cuda: CUDA_2] gray_circle:
+
+[2025-08-19 23:39:28] [cuda: CUDA_3] ustc_400:
+
+[2025-08-20 10:33:34] [cuda: CUDA_2] 训练完成。相关输出文件夹为：
+output/render_600_2000_0.02_27/
+
+[2025-08-20 23:47:33] [cuda: CUDA_2] gray_circle:
+
+[2025-08-20 23:50:19] [cuda: CUDA_3] gray_circle:
+
+[2025-08-22 01:55:44] [cuda: CUDA_3] 训练完成。相关输出文件夹为：
+output/render_600_2000_0.02_30/
+
+[2025-08-22 02:27:24] [cuda: CUDA_2] 训练完成。相关输出文件夹为：
+output/render_600_2000_0.02_29/
+
+[2025-08-22 21:12:46] [cuda: CUDA_3] gray_circle:
+
+[2025-08-22 22:12:22] [cuda: CUDA_3] gray_circle:
+
+[2025-08-22 22:21:10] [cuda: CUDA_3] gray_circle:
+
+[2025-08-22 22:33:21] [cuda: CUDA_3] gray_circle:
+
+[2025-08-23 00:50:08] [cuda: CUDA_3] gray_circle:
+
+[2025-08-23 06:22:18] [cuda: CUDA_3] 训练完成。相关输出文件夹为：
+output/render_600_2000_0.02_31/
+
+[2025-08-23 09:52:54] [cuda: CUDA_1] 训练完成。相关输出文件夹为：
+output/render_600_2000_0.02_33/
+
+[2025-08-23 10:54:39] [cuda: CUDA_2] 训练完成。相关输出文件夹为：
+output/render_600_2000_0.02_32/
+
+[2025-08-24 00:38:42] [cuda: CUDA_3] gray_circle:
+
+[2025-08-24 00:42:00] [cuda: CUDA_3] gray_circle:
+
+[2025-08-24 01:01:56] [cuda: CUDA_1] 训练完成。相关输出文件夹为：
+output/render_600_2000_0.02_40/
+
+[2025-08-24 13:10:02] [cuda: CUDA_3] gray_circle:
+
+[2025-08-24 14:45:55] [cuda: CUDA_2] 训练完成。相关输出文件夹为：
+output/render_600_2000_0.02_42/
+
+[2025-08-25 00:29:26] [cuda: CUDA_3] gray_circle:
+
+[2025-08-25 00:35:06] [cuda: CUDA_3] gray_circle:
+
+[2025-08-25 01:13:46] [cuda: CUDA_0] 训练完成。相关输出文件夹为：
+output/render_600_2000_0.02_51/
+
+[2025-08-25 07:36:46] [cuda: CUDA_0] 训练完成。相关输出文件夹为：
+output/render_600_2000_0.02_50/
+
+[2025-08-25 14:11:13] [cuda: CUDA_3] gray_circle:
+
+[2025-08-25 14:25:02] [cuda: CUDA_3] gray_circle:
+
+[2025-08-25 14:26:51] [cuda: CUDA_6] 训练完成。相关输出文件夹为：
+output/render_600_2000_0.02_52/
+
+[2025-08-25 14:29:18] [cuda: CUDA_3] gray_circle:
+
+[2025-08-25 14:41:43] [cuda: CUDA_6] 训练完成。相关输出文件夹为：
+output/render_600_2000_0.02_52/
+
+[2025-08-25 15:31:28] [cuda: CUDA_3] gray_circle:
+
+[2025-08-25 15:46:12] [cuda: CUDA_3] gray_circle:
+
+[2025-08-25 15:51:12] [cuda: CUDA_3] gray_circle:
+
+[2025-08-25 15:54:10] [cuda: CUDA_3] gray_circle:
+
+[2025-08-25 16:36:03] [cuda: CUDA_6] 训练完成。相关输出文件夹为：
+output/render_600_2000_0.02_55/
+
+[2025-08-25 16:36:04] [cuda: CUDA_6] 训练完成。相关输出文件夹为：
+output/render_600_2000_0.02_56/
+
+[2025-08-25 16:36:30] [cuda: CUDA_6] 训练完成。相关输出文件夹为：
+output/render_600_2000_0.02_54/
+
+[2025-08-30 22:38:58] [cuda: CUDA_3] gray_circle:
+
+[2025-08-30 22:51:20] [cuda: CUDA_3] gray_circle:
+
+[2025-08-30 23:15:33] [cuda: CUDA_2] 训练完成。相关输出文件夹为：
+new_output/render_600_2000_0.02_1/
+
+[2025-08-30 23:33:52] [cuda: CUDA_3] gray_circle:
+
+[2025-08-30 23:41:08] [cuda: CUDA_3] gray_circle:
+
+[2025-08-31 00:03:07] [cuda: CUDA_3] gray_circle:
+

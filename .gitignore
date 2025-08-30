@@ -1,0 +1,13 @@
+output/
+new_output/
+*.pth
+*.pt
+.vscode/
+__pycache__/
+centers/
+code_for_test/
+init_mesh/
+**/build/
+temp/
+test/
+toolpaths/

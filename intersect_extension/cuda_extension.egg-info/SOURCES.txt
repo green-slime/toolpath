@@ -1,0 +1,6 @@
+compute.cu
+setup.py
+cuda_extension.egg-info/PKG-INFO
+cuda_extension.egg-info/SOURCES.txt
+cuda_extension.egg-info/dependency_links.txt
+cuda_extension.egg-info/top_level.txt

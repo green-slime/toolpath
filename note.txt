@@ -1,0 +1,7 @@
+1、output/large_600_500_0.01_small_6 -> output/large_600_1225_0.01_large_9 -> output/large_600_3000_0.01_large_9 
+说明依渲染采样数逐渐增加的初值手段不可行。
+2、直接落点：观察tmux toolpath的最新结果。output/large_600_3000_0.01_ot_7 -> output/large_600_3000_0.01_large_9。看起来不行。
+3、尝试法向量+高度初始化：因为Δx=nx/nz*(3-h)，可见h的偏移会被放大nx/nz≈nx倍（1e-3量级），而nx的偏移会被放大(3-h)/nz≈3倍，可以看出，法向量的影响是举足轻重的。所以我们只对法向量做loss。
+output/large_600_3000_0.01_normal_8 -> output/large_600_3000_0.01_large_10
+4、同一路径下，采样点较少时优化效果还行。
+5、直接优化的例子找一下
