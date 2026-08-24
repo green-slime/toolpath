@@ -33,14 +33,14 @@ run_otmap_first = True
 if(run_otmap_first):
     work_with_otmap.resize_img_and_ot()
 
-#bin_name = "/data/wzr/2025/otmap/einstein_200_vectors.bin"
-#bin_name = "/data/wzr/2025/otmap/gray_circle_200_vectors.bin"
-bin_name = "/data/wzr/2025/otmap/lena_200_vectors.bin"
-bin_name = "/data/wzr/2025/otmap/einstein_200_400_vectors.bin" 
-bin_name = "/data/wzr/2025/otmap/6_400_vectors.bin" 
-bin_name = "/data/wzr/2025/otmap/ustc_400_vectors.bin"
-bin_name = "/data/wzr/2025/otmap/lena_200_400_vectors.bin"
-bin_name = "/data/wzr/2025/otmap/ustc_400_400_vectors.bin"
+#bin_name = "./otmap/einstein_200_vectors.bin"
+#bin_name = "./otmap/gray_circle_200_vectors.bin"
+bin_name = "./otmap/lena_200_vectors.bin"
+bin_name = "./otmap/einstein_200_400_vectors.bin"
+bin_name = "./otmap/6_400_vectors.bin"
+bin_name = "./otmap/ustc_400_vectors.bin"
+bin_name = "./otmap/lena_200_400_vectors.bin"
+bin_name = "./otmap/ustc_400_400_vectors.bin"
 version = 9
 
 tensor = utils.read_vectors_from_binary(bin_name).to(device).requires_grad_(False)
@@ -332,5 +332,4 @@ exit()
 visualize_diff_from_control_points(info_list, z_of_receiver, torch.load('control_points1.pth'), torch.load('wij1.pth'))
 #visualize_diff_from_control_points(info_list, z_of_receiver)
 #visualize_tensor_result()
-
 

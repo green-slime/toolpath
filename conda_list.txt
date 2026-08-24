@@ -1,4 +1,4 @@
-# packages in environment at /nas_data/data/wzr/miniconda3/envs/dinov2-extras:
+# packages in environment at <redacted>:
 #
 # Name                    Version                   Build  Channel
 _libgcc_mutex             0.1                        main  

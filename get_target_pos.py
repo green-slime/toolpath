@@ -11,7 +11,7 @@ def get_target_pos(device='cpu'):
     """
     print("Establishing target surface...")
     with torch.no_grad():
-        old_project_path = '/data/wzr/2025'
+        old_project_path = '.'
         control_points1 = torch.load(f'{old_project_path}/{cfg.control_points_name}').to(device)
         wij = torch.load(f'{old_project_path}/{cfg.wij_name}').to(device)
         
@@ -34,7 +34,7 @@ def get_target_pos2(device='cpu'):
     """
     print("Establishing target surface...")
     with torch.no_grad():
-        old_project_path = '/data/wzr/2025'
+        old_project_path = '.'
         control_points1 = torch.load(f'{old_project_path}/{cfg.control_points_name}').to(device)
         wij = torch.load(f'{old_project_path}/{cfg.wij_name}').to(device)
         
@@ -52,7 +52,7 @@ def get_target_pos2(device='cpu'):
     
 if __name__ == "__main__":
     device = utils.cuda_init(0)
-    old_project_path = '/data/wzr/2025'
+    old_project_path = '.'
     control_points1 = torch.load(f'{old_project_path}/{cfg.control_points_name}').to(device)
     wij = torch.load(f'{old_project_path}/{cfg.wij_name}').to(device)
     

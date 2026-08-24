@@ -10,7 +10,7 @@ def get_centers(surface_points, normals, R):
     return centers
 
 def get_nurbs_data(sample_points, device='cpu'):
-    old_project_path = '/data/wzr/2025'
+    old_project_path = '.'
     control_points1 = torch.load(f'{old_project_path}/{cfg.control_points_name}').to(device)
     wij = torch.load(f'{old_project_path}/{cfg.wij_name}').to(device)
     #control_points1 = torch.ones((100, 100)).to(device)

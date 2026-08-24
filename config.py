@@ -17,11 +17,11 @@ sample_size_for_obj = 1000 # 制作 obj 文件采样数
 surface_configs = {
   3: {
     "img_name": "gray_circle",
-    "img_path": "/data/wzr/2025/img/gray_circle_200.png"
+    "img_path": "./img/gray_circle_200.png"
   },
   7: {
     "img_name": "ustc_400", 
-    "img_path": "/data/wzr/2025/img/ustc_400.png"
+    "img_path": "./img/ustc_400.png"
   }
 }
 
@@ -35,14 +35,14 @@ init_mesh_filename = f'./init_mesh/init_mesh{surface_version}.obj'  # 初始网�
 
 # 渲染参数
 img_size = 200  # 渲染图像大小
-#img_path = f'/data/wzr/2025/img/zju.png'  # 目标图像位置
-#img_path = f'/data/wzr/2025/img/einstein_200.png'  # 目标图像位置
-#img_path = f'/data/wzr/2025/img/gray_circle_200.png'  # 目标图像位置
-#img_path = f'/data/wzr/2025/img/einstein_200_400.png'  # 目标图像位置
-#img_path = f'/data/wzr/2025/img/6_400.png'  # 目标图像位置
-#img_path = f'/data/wzr/2025/img/lena_200.png'  # 目标图像位置
-#img_path = f'/data/wzr/2025/img/ustc_400.png'  # 目标图像位置
-#img_path = f'/data/wzr/2025/img/lena_200_400.png'  # 目标图像位置
+#img_path = f'./img/zju.png'  # 目标图像位置
+#img_path = f'./img/einstein_200.png'  # 目标图像位置
+#img_path = f'./img/gray_circle_200.png'  # 目标图像位置
+#img_path = f'./img/einstein_200_400.png'  # 目标图像位置
+#img_path = f'./img/6_400.png'  # 目标图像位置
+#img_path = f'./img/lena_200.png'  # 目标图像位置
+#img_path = f'./img/ustc_400.png'  # 目标图像位置
+#img_path = f'./img/lena_200_400.png'  # 目标图像位置
 sobel_scale = 1.0  # Sobel算子缩放比例
 l1_scale = 0.2
 

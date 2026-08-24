@@ -357,7 +357,7 @@ def main_debug(need_mesh=False, device='cpu', foldername="toolpaths/"):
         from get_init_mesh import get_init_mesh
         get_init_mesh(sample_num=500, device=device)
     
-    surface = load_obj_as_stl("/data/wzr/toolpath/init_mesh.obj")
+    surface = load_obj_as_stl("./init_mesh.obj")
     
     # 测试不同的刀具半径
     test_radii = [cfg.R, cfg.R*2, cfg.R*5]  # 不要用10倍，先测试小一点的
@@ -405,7 +405,7 @@ def verify_stl_model(filename):
 
 if __name__ == "__main__":
     # 先验证模型
-    #verify_stl_model("/data/wzr/toolpath/init_mesh.obj")
+    #verify_stl_model("./init_mesh.obj")
     
     # 运行调试
     main_debug()

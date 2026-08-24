@@ -8,20 +8,20 @@ from pathlib import Path
 先设置各参数
 """
 # 项目绝对地址：
-project_dir = '/data/wzr/2025/'
+project_dir = './'
 # 快速ot build 绝对地址：
-where_is_otmap = '/data/wzr/otmap/build'
+where_is_otmap = '../otmap/build'
 # 设置dinov2所用特征patch的高度和宽度：
 patch_h = 50
 patch_w = patch_h
 batch_size = 1
 # 所计算图像的路径：
-#img_path = f'/data/wzr/2025/img/gray_circle.png'
+#img_path = f'./img/gray_circle.png'
 output_folder_index = 6
-img_path = f'/data/wzr/2025/img/einstein_200.png'
-img_path = f'/data/wzr/2025/img/6.jpg'
-img_path = f'/data/wzr/2025/img/ustc_400.png'
-#img_path = f'/data/wzr/2025/img/lena_200.png'
+img_path = f'./img/einstein_200.png'
+img_path = f'./img/6.jpg'
+img_path = f'./img/ustc_400.png'
+#img_path = f'./img/lena_200.png'
 #img_path = './img/white.png'
 image_name = Path(img_path).stem  # 'zju', 不含扩展名
 # 图像大小

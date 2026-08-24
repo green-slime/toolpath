@@ -4,11 +4,11 @@ from pathlib import Path
 import utils
 import config as cfg
 
-where_is_otmap = '/data/wzr/otmap/build'
+where_is_otmap = '../otmap/build'
 
 process_img_size = cfg.nu - 1
 process_img_name = Path(cfg.img_path).stem  # 'zju'
-img_folder_path = os.path.dirname(cfg.img_path) # '/data/wzr/2025/img'
+img_folder_path = os.path.dirname(cfg.img_path) # './img'
 
 def run_otmap(img_path = cfg.img_path, out_prefix = f'{img_folder_path}/{process_img_name}'):
     # 完整的 out_path: {out_prefix}_vectors.bin

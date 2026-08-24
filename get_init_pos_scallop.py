@@ -389,7 +389,7 @@ def make_it_continuous(segmented_paths):
     
 
 def get_nurbs_data(device='cpu'):
-    old_project_path = '/data/wzr/2025'
+    old_project_path = '.'
     control_points = torch.load(f'{old_project_path}/control_points1.pth').to(device)
     wij = torch.load(f'{old_project_path}/wij1.pth').to(device)
     #control_points = torch.ones((100, 100)).to(device)

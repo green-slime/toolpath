@@ -261,7 +261,7 @@ def resize_and_save_image(input_path, size, output_path=None):
 
     Args:
         input_path (str): 输入图片路径。
-        output_path (str): 输出图片路径。默认：/data/wzr/2025/img/{name}_{size[0]}.png
+        output_path (str): 输出图片路径。默认：./img/{name}_{size[0]}.png
         size (tuple): 目标大小 (width, height)。
     """
     if isinstance(size, int):
@@ -366,7 +366,7 @@ if __name__ == "__main__":
 """ if __name__ == "__main__":
     from time import time
     time1 = time()
-    tensor = read_vectors_from_binary("/data/wzr/otmap/build/vectors.bin")
+    tensor = read_vectors_from_binary("../otmap/build/vectors.bin")
     print(f'use time: {time()-time1:.2f}s')
     print("Tensor:\n", tensor)
     print("Shape:", tensor.shape) """

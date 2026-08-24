@@ -431,4 +431,4 @@ def get_obj():
     make_obj(cfg.sample_size_for_obj, path_points_yz, x_grid, device=device, output_file=f"{cfg.output_foldername}/output2.obj")  # 
     
 if __name__ == "__main__":
-    just_show_result(pretrained_pt="/data/wzr/toolpath/output/render_600_2000_0.02_27/"+"path_points.pt")  # 显示结果large_600_2000_0.01_large_24
+    just_show_result(pretrained_pt="./output/render_600_2000_0.02_27/"+"path_points.pt")  # 显示结果large_600_2000_0.01_large_24
