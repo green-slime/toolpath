@@ -10,4 +10,4 @@
 
 ## 重采样结果
 
-![刀具路径重采样结果](test_resampled.png)
+![单条刀具路径示例](test_resampled.png)
