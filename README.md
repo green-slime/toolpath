@@ -2,6 +2,12 @@
 
 研究代码，尚待整理。
 
-## 结果示例
+## 刀路优化效果
+
+| 优化前 | 优化后 |
+| :---: | :---: |
+| ![刀路优化前](assets/toolpath_before.png) | ![刀路优化后](assets/toolpath_after.png) |
+
+## 重采样结果
 
 ![刀具路径重采样结果](test_resampled.png)
